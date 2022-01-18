@@ -2,13 +2,16 @@ import React, {useState} from 'react'
 import "../css/Header.css";
 import {SiGmail} from 'react-icons/si';
 import {FaBars} from 'react-icons/fa';
-import { IconContext } from 'react-icons';
+import {IconContext} from 'react-icons';
 import {IoMdSettings} from 'react-icons/io'
 import {BiHelpCircle} from 'react-icons/bi'
 import {IoMdApps} from 'react-icons/io'
 import {RiAccountCircleLine} from 'react-icons/ri'
 import {AiOutlineSearch} from 'react-icons/ai';
 import {IoMdOptions} from 'react-icons/io';
+import {BsCalendarDate} from 'react-icons/bs'
+import {GoLightBulb} from 'react-icons/go'
+import {IoMdCheckmarkCircleOutline} from 'react-icons/io'
 
 
 function Header() {
@@ -53,7 +56,6 @@ function Header() {
           <RiAccountCircleLine />
         </IconContext.Provider>
 
-        
       </div>
     </div>
   )

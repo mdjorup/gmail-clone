@@ -1,0 +1,29 @@
+
+.icon {
+    padding: 10px 12px 10px 12px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: whitesmoke;
+}
+
+.right_sidebar {
+    padding-top: 5px;
+    padding-right: 5px;
+    display: flex;
+
+    /* not sure how to adjust height properly */
+    /* find better way than below */
+    height: 50vmax;
+    align-items: flex-end;
+    flex-direction: column;
+    border-left: 1px solid lightgray;
+    float: right; /* moves the border to the right */
+}
+
+.underscore {
+    color: lightgray;
+    padding-right: 18px;
+}

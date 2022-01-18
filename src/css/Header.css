@@ -11,10 +11,11 @@
   justify-content: space-evenly;
 }
 .header__center {
-  flex: 0.65;
+  padding-left: 30px;
+  flex: 0.75;
 }
 .header__right {
-  flex: 0.2;
+  flex: 0.15;
   display :flex;
   justify-content: space-evenly;
   align-items: center;
@@ -35,6 +36,7 @@
   font-weight: 400;
   color: gray;
 }
+
 .icon {
   padding: 10px 12px 10px 12px;
   border-radius: 100px;
