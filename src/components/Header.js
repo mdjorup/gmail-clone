@@ -17,20 +17,10 @@ function Header() {
 
       {/* left header */}
       <div className="header__left">
-
-        {/* selection icon */}
-        <IconContext.Provider value={{ className: 'selection__icon' }}>
-          <FaBars />
-        </IconContext.Provider>
-
-        {/* gmail icon */}
-        <IconContext.Provider value={{ className: 'gmail__icon' }}>
-          <SiGmail />
-        </IconContext.Provider>
-
-        {/* Gmail text */}
-        <p class = "Gmail">Gmail</p>
-
+        <FaBars size={20} color='gray'/>
+        <SiGmail size={30} color='red'/>
+        <h3>Gmail</h3>
+        
       </div>
 
       {/* center header */}
@@ -44,24 +34,13 @@ function Header() {
       <div className="header__right">
       
         {/* help icon */}
-        <IconContext.Provider value={{ className: 'settings__icon' }}>
+        <IconContext.Provider value={{size: 30, color: 'gray'}}>
           <BiHelpCircle />
-        </IconContext.Provider>
-
-        {/* settings icon */}
-          <IconContext.Provider value={{ className: 'help__icon' }}>
           <IoMdSettings />
-        </IconContext.Provider>
-
-        {/* apps icon */}
-        <IconContext.Provider value={{ className: 'apps__icon' }}>
           <IoMdApps />
-        </IconContext.Provider>
-
-        {/* account icon */}
-        <IconContext.Provider value={{ className: 'account__icon' }}>
           <RiAccountCircleLine />
         </IconContext.Provider>
+
         
       </div>
     </div>

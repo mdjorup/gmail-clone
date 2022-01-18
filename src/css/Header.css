@@ -1,6 +1,7 @@
 .header {
   display: flex;
   height: 70px;
+  border-bottom: 1px solid lightgray;
 }
 
 .header__left {
@@ -19,41 +20,19 @@
   align-items: center;
 }
 
-.Gmail {
+.header__gmail {
   /*font-size: 1.5em;*/
-  font-size: 20pt;
-  font-family: "Arial";
-}
-
-.selection__icon {
-  height: 2em;
+  display: flex;
   color: gray;
-}
-.gmail__icon {
-  height: 2em;
-  color: red;
-}
-
-.help__icon {
-  height: 1.75em;
-  flex:0.25;
-  color: gray
+  height: fit-content;
+  border: 1px solid orange;
+  align-items: center;
+  
 }
 
-.settings__icon {
-  height: 1.75em;
-  flex:0.25;
+.header__left > h3 {
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 400;
   color: gray;
-}
-
-.apps__icon {
-  height: 1.75em;
-  flex:0.25;
-  color: gray
-}
-
-.account__icon {
-  height: 1.75em;
-  flex:0.25;
-  color: gray
 }
