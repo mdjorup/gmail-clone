@@ -26,14 +26,11 @@ function Header() {
       {/* center header */}
       <div className="header__center">
 
-        
-
       </div>
 
       {/* right header */}
       <div className="header__right">
       
-        {/* help icon */}
         <IconContext.Provider value={{size: 30, color: 'gray'}}>
           <BiHelpCircle />
           <IoMdSettings />
