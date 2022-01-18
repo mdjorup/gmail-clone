@@ -35,3 +35,44 @@
   font-weight: 400;
   color: gray;
 }
+.icon {
+  padding: 10px 12px 10px 12px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: whitesmoke;
+}
+
+.header__center {
+  display: flex;
+  align-items: center;
+}
+
+.header__searchbar {
+  display: flex;
+  height: 80%;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 6px;
+  background-color: #EEEEEE;
+  align-items: center;
+  padding-left: 10px;
+  justify-content: center;
+}
+
+.header__searchbar > input {
+  border: none;
+  background-color: #EEEEEE;
+  font-size: medium;
+  color: #666666;
+  font-weight: 500;
+  width: 80%;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.header__searchbar > input:focus {
+  outline: none;
+}
